@@ -1,1 +1,22 @@
-<p>education works!</p>
+<hr class="divider">
+<section id="education" class="container">
+  <h2 class="mb-4">Education</h2>
+
+  <!-- Education Point 1 -->
+  <div class="row mb-4">
+    <div class="col-md-8">
+      <h4>{{ getUnivesity() }}</h4>
+      <p class="text-muted">{{ getDegree() }}</p>
+      <h5>Relevant Courses</h5>
+      <ul *ngFor="let course of getCourses()">
+        <li>{{ course }}</li>
+      </ul>
+    </div>
+    <div class="col-md-4 text-md-end">
+      <p><strong>{{ getDuration() }}</strong></p>
+    </div>
+  </div>
+
+  <!-- Add more education points if needed -->
+
+</section>

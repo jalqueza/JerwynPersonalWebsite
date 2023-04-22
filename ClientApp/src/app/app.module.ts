@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
-import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { InterestsComponent } from './interests/interests.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -19,7 +18,6 @@ import { NavbarComponent } from './navbar/navbar.component';
     AboutComponent,
     ExperienceComponent,
     EducationComponent,
-    SkillsComponent,
     ProjectsComponent,
     InterestsComponent,
     NavbarComponent

@@ -230,4 +230,10 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 
- *ClientApp/.angular/*
+# Angular build artifacts and cache
+/dist
+/node_modules
+/ClientApp/node_modules
+*.log
+.angular/cache
+/ClientApp/.angular/cache
