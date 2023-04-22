@@ -32,7 +32,6 @@ export class EducationComponent {
   }
 
   getCourses() {
-    console.log(this.education.courses);
     return this.education.courses;
   }
 

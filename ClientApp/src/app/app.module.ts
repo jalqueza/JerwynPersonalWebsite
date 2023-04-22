@@ -11,6 +11,7 @@ import { EducationComponent } from './education/education.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { InterestsComponent } from './interests/interests.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { MusicPlayerComponent } from './music-player/music-player.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     EducationComponent,
     ProjectsComponent,
     InterestsComponent,
-    NavbarComponent
+    NavbarComponent,
+    MusicPlayerComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

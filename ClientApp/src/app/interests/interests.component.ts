@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class InterestsComponent {
 
+  interest = ["I like to eat food", "I like to play basketball and workout", "I like to listen to music (hip-hop and edm)", "I like"]
 }

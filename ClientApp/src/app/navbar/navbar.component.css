@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 1rem;
+  }
+  
+  .music-player {
+    display: flex;
+    align-items: center;
+  }
+  
+  .play-button, .pause-button {
+    background-color: yellow;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .play-button:hover, .pause-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
