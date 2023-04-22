@@ -25,6 +25,10 @@
     <Compile Remove="ClientApp\src\app\ExperienceService.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ClientApp\.angular\cache\15.1.6\angular-webpack\" />
+  </ItemGroup>
+
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">
