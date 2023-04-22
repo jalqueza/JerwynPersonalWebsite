@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 
 /* Provide sufficient contrast against white background */
 a {
@@ -17,4 +18,39 @@ code {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.divider {
+  border-top: 1px solid #dee2e6;
+  margin-bottom: 4rem;
+  margin-top: 35rem;
+}
+
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(70vh - 30px);
+  margin-bottom: calc(30vh - 30px);
 }
