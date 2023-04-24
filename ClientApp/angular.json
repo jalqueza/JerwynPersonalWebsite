@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/",
             "progress": false,
             "outputPath": "dist/JerwynPersonalWebsite",
             "index": "src/index.html",

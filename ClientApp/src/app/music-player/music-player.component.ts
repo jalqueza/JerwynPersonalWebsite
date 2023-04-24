@@ -5,17 +5,13 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   templateUrl: './music-player.component.html',
   styleUrls: ['./music-player.component.css']
 })
-export class MusicPlayerComponent implements OnInit {
+export class MusicPlayerComponent {
 
   @ViewChild('myAudio', {static: true}) myAudio: ElementRef;
   audioPlaying: boolean = false;
   
   constructor() {
     this.myAudio = {} as ElementRef<HTMLAudioElement>;
-  }
-
-  ngOnInit() {
-    this.playAudio();
   }
 
   playAudio() {
