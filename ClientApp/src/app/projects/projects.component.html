@@ -1,23 +1,23 @@
 <hr class="divider">
 <section id="projects" class="container my-5">
     <h2 class="text-center mb-5">Projects</h2>
-    <div class="row mb-5" *ngFor="let project of getProjects()">
-        <div class="col-md-12 d-flex">
-           <div class="col-md-6">
-              <div>
-                 <div class="card-body">
-                    <h5 class="card-title mb-1"> {{ project.title }} </h5>
-                    <video *ngIf="project.type=='video'" src={{project.path}} class="card-img-top" alt="Project video" controls></video>
-                    <img *ngIf="project.type=='image'" src={{project.path}} class="card-img-top" alt="Project image" />
-                    <a *ngIf=project.github href={{project.github}} target="_blank" class="btn btn-primary">View on GitHub</a>
-                 </div>
-              </div>
-           </div>
-           <div class="col-md-6">
-              <ul *ngFor="let point of project.points">
-                 <li>{{point}}</li>
-              </ul>
-           </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0" *ngFor="let project of getProjects()">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title mb-1">{{ project.title }}</h5>
+                            <img *ngIf="project.type == 'image'" src="{{ project.path }}" class="card-img-top" alt="Project image">
+                            <video *ngIf="project.type == 'video'" src="{{ project.path }}" class="card-img-top" alt="Project video" controls></video>
+                            <a *ngIf="project.github" href="{{ project.github }}" class="btn btn-primary">View on GitHub</a>
+                            <ul class="mt-3">
+                                <li *ngFor="let point of project.points">{{ point }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

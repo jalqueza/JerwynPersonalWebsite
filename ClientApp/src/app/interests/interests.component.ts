@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./interests.component.css']
 })
 export class InterestsComponent {
-
-  interest = ["I like to eat food", "I like to play basketball and workout", "I like to listen to music (hip-hop and edm)", "I like"]
+  interest = ["I like to eat food", 
+              "I like to play basketball and workout", 
+              "I like to listen to music (hip-hop and edm)", 
+              "I like to play valorant"]
 }
