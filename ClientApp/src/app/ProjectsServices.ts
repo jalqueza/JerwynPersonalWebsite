@@ -40,7 +40,7 @@ export class ProjectsService {
             path: "assets/Yonder.mp4",
             points: [
                 "A distributed social networking platform",
-                "My role in the group of 4 was to work on the backend utilizing Django/Python and PostgresSQL"]
+                "My role in the group of 4 was to manage data such as users, posts and content on the backend utilizing Django/Python and PostgresSQL"]
         }
     ];
 }
